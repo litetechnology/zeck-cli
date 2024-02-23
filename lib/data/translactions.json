@@ -1,0 +1,29 @@
+{
+    "default": "en",
+    "commands":{
+        "init":{
+            "pt":{
+
+            },
+            "en":{
+
+            }
+        },
+        "default":{
+            "pt":{
+
+            },
+            "en":{
+
+            }
+        }
+    },
+    "errors":{
+        "pt":{
+
+        },
+        "en":{
+
+        }   
+    }
+}

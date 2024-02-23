@@ -1,3 +1,4 @@
 node_modules
 package-lock.json
-lib/data/*
+lib/data/config.json
+lib/data/todo.json
