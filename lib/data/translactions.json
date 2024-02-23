@@ -1,29 +1,39 @@
 {
-    "default": "en",
-    "commands":{
-        "init":{
-            "pt":{
-
-            },
-            "en":{
-
-            }
-        },
-        "default":{
-            "pt":{
-
-            },
-            "en":{
-
-            }
-        }
+  "default": "en",
+  "commands": {
+    "init": {
+      "pt": {
+        "hasConfigAnswer": "Você já tem um arquivo de configuração, deseja reescreve-lo ?",
+        "directory": "Qual é o seu diretório de trabalho?",
+        "validateNotAllowed": "Uma resposta vazia não é permitida.",
+        "notExistsDirectory": "O diretório que você forneceu não existe.",
+        "useVps": "Você possui um VPS? Se sim, deseja usar alguns comandos para gerenciá-lo?",
+        "useTodo": "Você tem interesse em usar os comandos da minha lista de tarefas?",
+        "automaticBackup": "Deseja realizar backups automáticos quando finalizar um projeto?",
+        "success": "Configuração concluída com sucesso, use 'zeck help' para obter ajuda e 'zeck config' para finalizar as configurações."
+      },
+      "en": {
+        "hasConfigAnswer": "You already have a configuration file, do you want to rewrite it?",
+        "directory": "What is your working directory?",
+        "validateNotAllowed": "An empty answer is not allowed.",
+        "notExistsDirectory": "The directory you sent does not exist",
+        "useVps": "Do you have a vps? If so, do you want to use some commands to manage it?",
+        "useTodo": "Are you interested in using my task list commands?",
+        "automaticBackup": "Do you want to perform automatic backups when you finish a project?",
+        "success": "Configuration completed successfully, Use 'zeck help' for help and 'zeck config' to finish the configurations."
+      }
     },
-    "errors":{
-        "pt":{
-            "validateNotAllowed":"Uma resposta vazia não é permitida."
-        },
-        "en":{
-            "validateNotAllowed":"An empty answer is not allowed."
-        }   
+    "default": {
+      "pt": {},
+      "en": {}
     }
+  },
+  "errors": {
+    "pt": {
+      "validateNotAllowed": "Uma resposta vazia não é permitida."
+    },
+    "en": {
+      "validateNotAllowed": "An empty answer is not allowed."
+    }
+  }
 }
