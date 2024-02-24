@@ -23,6 +23,30 @@
         "success": "Configuration completed successfully, Use 'zeck help' for help and 'zeck config' to finish the configurations."
       }
     },
+    "todo": {
+      "pt": {
+        "description":"Qual é sua tarefa ?",
+        "addSuccess": "Tarefa adicionada com sucesso.",
+        "notIdRemove": "Envie um ID de uma tarefa para ser apagada.",
+        "notIdStatus": "Envie um ID de uma tarefa para modificar o status.",
+        "removeSuccess": "Tarefa removida com sucesso.",
+        "statusSuccess": "O status foi modificado com sucesso.",
+        "notFoundId": "Esse ID não existe.",
+        "false":"pendente",
+        "true":"feito"
+      },
+      "en": {
+        "description": "What is your task?",
+        "addSuccess": "Task added successfully.",
+        "notIdRemove": "Send a task ID to be deleted.",
+        "notIdStatus": "Send a task ID to modify the status.",
+        "removeSuccess": "Task removed successfully.",
+        "statusSuccess": "The status was modified successfully.",
+        "notFoundId": "This ID does not exist.",
+        "false": "pending",
+        "true": "done"
+      }
+    },
     "default": {
       "pt": {},
       "en": {}
