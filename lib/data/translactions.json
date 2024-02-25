@@ -1,5 +1,5 @@
 {
-  "default": "en",
+  "default": "pt",
   "commands": {
     "init": {
       "pt": {
@@ -46,6 +46,24 @@
         "false": "pending",
         "true": "done"
       }
+    },
+    "config": {
+      "pt": {
+        "selectProfile":"Selecione um perfil para visualizar as informações",
+        "selectProfileCheckout":"Selecione um perfil para realizar checkout",
+        "notIdRemove": "Envie um ID de um perfil para ser apagado.",
+        "notRemoveDefault": "Não é possivel apagar um perfil padrão.",
+        "addProfile": "adicionar perfil",
+        "undefined": "Não definido.",
+        "successCheckout":"Seu perfil atual foi definido para *** com sucesso.",
+        "userNotFound": "Esse perfil não existe.",
+        "removeSuccess": "Perfil removido com sucesso.",
+        "addName": "Qual o nome para seu novo perfil ?",
+        "validateNotAllowed": "Uma resposta vazia não é permitida.",
+        "existsProfileName": "Já existe um perfil com esse nome.",
+        "addSuccess":"Perfil adicionado com sucesso, para adicionar mais configurações use 'zeck config <configuração desejada>'"
+      },
+      "en": {}
     },
     "default": {
       "pt": {},
