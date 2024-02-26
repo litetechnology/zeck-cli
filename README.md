@@ -6,7 +6,7 @@
 [![Version](https://img.shields.io/npm/v/zeck-cli.svg)](https://npmjs.org/package/zeck-cli)
 [![License](https://img.shields.io/npm/l/zeck-cli.svg)](https://github.com/lite-technology/zeck-cli/blob/main/package.json)
 
-
+[english](README.md) | [portugues](README/pt-br.md)
 
 ## Guide
 - [Features](#main-features)
