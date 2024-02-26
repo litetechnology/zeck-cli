@@ -1,12 +1,14 @@
 # ZECK CLI
+ <h3> A complete solution for every type of developer</h3>
 
 [![NPM Downloads](https://img.shields.io/npm/dm/zeck-cli.svg?style=flat)](https://npmcharts.com/compare/zeck-cli?minimal=true)
 [![Install Size](https://packagephobia.now.sh/badge?p=zeck-cli)](https://packagephobia.now.sh/result?p=zeck-cli)
 [![Version](https://img.shields.io/npm/v/zeck-cli.svg)](https://npmjs.org/package/zeck-cli)
 [![License](https://img.shields.io/npm/l/zeck-cli.svg)](https://github.com/lite-technology/zeck-cli/blob/main/package.json)
 
-## A complete solution for every type of developer
 
+
+## Guide
 - [Features](#main-features)
 - [Installation](#installation)
 - [Usage](#usage)
@@ -30,36 +32,36 @@
 
 ### Installation
 
-```sh
+```js
 npm install -g zeck-cli
 ```
 
 ### Usage 
-```
+```js
 //execute a command
 zeck COMMAND [...args]
 ```
 
 ### Quick Start
 To see all commands, use
-```
+```js
 zeck ( --help | help  )  
 ```
 
 Print the version
-```
+```js
 zeck ( --version | version )    
 ```
 
 To start zeck configurations, use the init command and answer the questions below
-```
+```js
 zeck init    
 ```
 # Commands
 
 ## Profile
 Create unlimited profiles, each configured with the information you want
-```
+```js
 //listing profiles and their information
 zeck profile list 
 zeck profile 
@@ -85,7 +87,7 @@ zeck profile reset
 
 ## Config
 Configure your current profile information
-```
+```js
 //list your current profile information
 zeck config list 
 zeck config 
@@ -106,7 +108,7 @@ zeck config url
 
 ## Todo
 Have an easy-to-use to-do list
-```
+```js
 //listing all tasks
 zeck todo list 
 zeck todo 
@@ -129,12 +131,12 @@ zeck todo reset
 
 ## Help 
 Show help panel
-```
+```js
 zeck help
 ```
 
 ## Init 
 Start zeck configuration
-```
+```js
 zeck init
 ```
