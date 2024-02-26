@@ -1,5 +1,5 @@
 {
-  "default": "pt",
+  "default": "en",
   "commands": {
     "init": {
       "pt": {
@@ -25,15 +25,15 @@
     },
     "todo": {
       "pt": {
-        "description":"Qual é sua tarefa ?",
+        "description": "Qual é sua tarefa ?",
         "addSuccess": "Tarefa adicionada com sucesso.",
         "notIdRemove": "Envie um ID de uma tarefa para ser apagada.",
         "notIdStatus": "Envie um ID de uma tarefa para modificar o status.",
         "removeSuccess": "Tarefa removida com sucesso.",
         "statusSuccess": "O status foi modificado com sucesso.",
         "notFoundId": "Esse ID não existe.",
-        "false":"pendente",
-        "true":"feito"
+        "false": "pendente",
+        "true": "feito"
       },
       "en": {
         "description": "What is your task?",
@@ -47,23 +47,71 @@
         "true": "done"
       }
     },
-    "config": {
+    "profile": {
       "pt": {
-        "selectProfile":"Selecione um perfil para visualizar as informações",
-        "selectProfileCheckout":"Selecione um perfil para realizar checkout",
+        "selectProfile": "Selecione um perfil para visualizar as informações",
+        "selectProfileCheckout": "Selecione um perfil para realizar checkout",
         "notIdRemove": "Envie um ID de um perfil para ser apagado.",
-        "notRemoveDefault": "Não é possivel apagar um perfil padrão.",
+        "notRemoveDefault": "Não é possível apagar um perfil padrão.",
         "addProfile": "adicionar perfil",
         "undefined": "Não definido.",
-        "successCheckout":"Seu perfil atual foi definido para *** com sucesso.",
+        "successCheckout": "Seu perfil atual foi definido para *** com sucesso.",
         "userNotFound": "Esse perfil não existe.",
         "removeSuccess": "Perfil removido com sucesso.",
-        "addName": "Qual o nome para seu novo perfil ?",
+        "addName": "Qual o nome para seu novo perfil?",
         "validateNotAllowed": "Uma resposta vazia não é permitida.",
         "existsProfileName": "Já existe um perfil com esse nome.",
-        "addSuccess":"Perfil adicionado com sucesso, para adicionar mais configurações use 'zeck config <configuração desejada>'"
+        "addSuccess": "Perfil adicionado com sucesso, para adicionar mais configurações use 'zeck config <configuração desejada>'"
       },
-      "en": {}
+      "en": {
+        "selectProfile": "Select a profile to view information",
+        "selectProfileCheckout": "Select a profile to checkout",
+        "notIdRemove": "Send a profile ID to be deleted.",
+        "notRemoveDefault": "Cannot delete a default profile.",
+        "addProfile": "add profile",
+        "undefined": "Undefined.",
+        "successCheckout": "Your current profile has been successfully set to ***.",
+        "userNotFound": "This profile does not exist.",
+        "removeSuccess": "Profile removed successfully.",
+        "addName": "What is the name for your new profile?",
+        "validateNotAllowed": "An empty response is not allowed.",
+        "existsProfileName": "A profile with this name already exists.",
+        "addSuccess": "Profile added successfully, to add more configurations use 'zeck config <desired configuration>'"
+      }
+    },
+    "config": {
+      "pt": {
+        "successLanguage": "Linguagem atualizada com sucesso.",
+        "errorLanguage": "Erro ao atualizar a linguagem.",
+        "successVps": "Configurações da VPS atualizadas com sucesso.",
+        "errorVps": "Erro ao atualizar as configurações da VPS.",
+        "successUrl": "Configurações da VPS atualizadas com sucesso.",
+        "errorUrl": "Erro ao atualizar as configurações da VPS.",
+        "selectHost": "Qual IP/HOST para acessar sua VPS?",
+        "selectUsername": "Qual o username para acesso?",
+        "selectPassword": "Qual a senha para acesso ?",
+        "confirmText": "Todos os dados enviados serão armazenados apenas em sua maquina de forma criptografada, de acordo ?",
+        "selectUrl": "Qual link para efetuar requisções de ping no servidor/api ?",
+        "successAll": "Todas as atualizações foram realizadas com sucesso.",
+        "selectProfile": "Selecione um perfil para visualizar as informações",
+        "userNotFound": "Esse perfil não existe."
+      },
+      "en": {
+        "successLanguage": "Language updated successfully.",
+        "errorLanguage": "Error updating language.",
+        "successVps": "VPS settings updated successfully.",
+        "errorVps": "Error updating VPS settings.",
+        "successUrl": "VPS settings updated successfully.",
+        "errorUrl": "Error updating VPS settings.",
+        "selectHost": "What IP/HOST to access your VPS?",
+        "selectUsername": "What is the username for access?",
+        "selectPassword": "What is the password for access?",
+        "confirmText": "All data sent will be stored only on your machine in encrypted form, okay?",
+        "selectUrl": "What link to use for server/API ping requests?",
+        "successAll": "All updates were successful.",
+        "selectProfile": "Select a profile to view information",
+        "userNotFound": "This profile does not exist."
+      }
     },
     "default": {
       "pt": {},
