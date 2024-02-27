@@ -1,5 +1,5 @@
 {
-  "default": "en",
+  "default": "pt",
   "commands": {
     "init": {
       "pt": {
@@ -161,8 +161,17 @@
         "success": "Configurations successfully imported to zeck."
       }
     },
+    "ping": {
+      "pt": {
+        "loading":"Realizando requisição ***",
+        "requestError": "Ouve um erro ao realizar a requisição."
+      },
+      "en": {}
+    },
     "default": {
-      "pt": {},
+      "pt": {
+
+      },
       "en": {}
     }
   },
