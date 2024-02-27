@@ -1,5 +1,5 @@
 {
-  "default": "pt",
+  "default": "en",
   "commands": {
     "init": {
       "pt": {
@@ -132,9 +132,14 @@
     "import": {
       "pt": {
         "hasConfigAnswer": "Você já tem um arquivo de configuração, deseja reescreve-lo ?",
-        "selectToken": "Token de importação",
+        "selectToken": "Qual é o token de importação?",
         "selectPassword": "Qual a senha de acesso para esse token ?",
-        "validateNotAllowed": "Uma resposta vazia não é permitida."
+        "validateNotAllowed": "Uma resposta vazia não é permitida.",
+        "incorrectPassword": "Senha incorreta.",
+        "hasDirectory": "Você já possui um diretório de trabalho configurado, deseja reconfigurar-lo ?",
+        "directory": "Qual é o seu diretório de trabalho?",
+        "notExistsDirectory": "O diretório que você forneceu não existe.",
+        "success": "Configurações importadas para o zeck com sucesso."
       },
       "en": {}
     },
