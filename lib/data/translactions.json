@@ -129,6 +129,15 @@
       },
       "en": {}
     },
+    "import": {
+      "pt": {
+        "hasConfigAnswer": "Você já tem um arquivo de configuração, deseja reescreve-lo ?",
+        "selectToken": "Token de importação",
+        "selectPassword": "Qual a senha de acesso para esse token ?",
+        "validateNotAllowed": "Uma resposta vazia não é permitida."
+      },
+      "en": {}
+    },
     "default": {
       "pt": {},
       "en": {}
