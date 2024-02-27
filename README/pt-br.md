@@ -20,6 +20,10 @@
     * [todo](#Todo)
     * [help](#Help)
     * [init](#Init)
+    * [reset](#reset)
+    * [version](#version)
+    * [export](#export)
+    * [import](#import)
 
 
 ## Recursos Principais
@@ -140,4 +144,28 @@ zeck help
 Iniciar a configuração do zeck
 ```js
 zeck init
+```
+
+## Reset 
+Redefinir todas as configurações do zeck
+```js
+zeck reset
+```
+
+## Version 
+Mostrar a versão do zeck
+```js
+zeck version
+```
+
+## Export 
+Exportar configurações com segurança
+```js
+zeck export
+```
+
+## Import 
+Importar configurações do zeck usando um token
+```js
+zeck import
 ```

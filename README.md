@@ -19,7 +19,10 @@
     * [todo](#Todo)
     * [help](#Help)
     * [init](#Init)
-
+    * [reset](#reset)
+    * [version](#version)
+    * [export](#export)
+    * [import](#import)
 
 ## Main features
 - Complete task list
@@ -140,3 +143,28 @@ Start zeck configuration
 ```js
 zeck init
 ```
+
+## Reset 
+Reset zeck all configuration
+```js
+zeck reset
+```
+
+## Version 
+Show zeck version
+```js
+zeck version
+```
+
+## Export 
+Export as settings securely
+```js
+zeck export
+```
+
+## Import 
+Import zeck settings using a token
+```js
+zeck import
+```
+

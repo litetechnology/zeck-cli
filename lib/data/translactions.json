@@ -115,33 +115,51 @@
     },
     "reset": {
       "pt": {
-        "confirm": "Isso apagará todas as configurações do zeck, de acordo ?",
+        "confirm": "Isso apagará todas as configurações do zeck, de acordo?",
         "success": "Todas as configurações foram resetadas com sucesso."
       },
-      "en": {}
+      "en": {
+        "confirm": "This will erase all zeck configurations, are you sure?",
+        "success": "All configurations have been successfully reset."
+      }
     },
     "export": {
       "pt": {
-        "hasConfigAnswer": "Esse comando vai exportar todas as confirações do zeck, incluindo senhas e acessos, de acordo?",
-        "selectPassword": "Informe uma senha para criptografia desses dados, ela será necessaria para importa-los novamente",
+        "hasConfigAnswer": "Esse comando vai exportar todas as configurações do zeck, incluindo senhas e acessos, de acordo?",
+        "selectPassword": "Informe uma senha para criptografia desses dados, ela será necessária para importá-los novamente",
         "loading": "Gerando token...",
-        "success": "Token gerado com sucesso, para importa-lo em qualquer lugar com o zeck, ultilize, 'zeck import' e informe o token e senha em seguida."
+        "success": "Token gerado com sucesso, para importá-lo em qualquer lugar com o zeck, utilize 'zeck import' e informe o token e senha em seguida."
       },
-      "en": {}
+      "en": {
+        "hasConfigAnswer": "This command will export all zeck configurations, including passwords and accesses, are you sure?",
+        "selectPassword": "Provide a password for the encryption of this data; it will be required to import them again",
+        "loading": "Generating token...",
+        "success": "Token generated successfully. To import it anywhere with zeck, use 'zeck import' and provide the token and password afterward."
+      }
     },
     "import": {
       "pt": {
-        "hasConfigAnswer": "Você já tem um arquivo de configuração, deseja reescreve-lo ?",
+        "hasConfigAnswer": "Você já tem um arquivo de configuração, deseja reescrevê-lo?",
         "selectToken": "Qual é o token de importação?",
-        "selectPassword": "Qual a senha de acesso para esse token ?",
+        "selectPassword": "Qual a senha de acesso para esse token?",
         "validateNotAllowed": "Uma resposta vazia não é permitida.",
         "incorrectPassword": "Senha incorreta.",
-        "hasDirectory": "Você já possui um diretório de trabalho configurado, deseja reconfigurar-lo ?",
+        "hasDirectory": "Você já possui um diretório de trabalho configurado, deseja reconfigurá-lo?",
         "directory": "Qual é o seu diretório de trabalho?",
         "notExistsDirectory": "O diretório que você forneceu não existe.",
         "success": "Configurações importadas para o zeck com sucesso."
       },
-      "en": {}
+      "en": {
+        "hasConfigAnswer": "Do you already have a configuration file, do you want to rewrite it?",
+        "selectToken": "What is the import token?",
+        "selectPassword": "What is the access password for this token?",
+        "validateNotAllowed": "An empty answer is not allowed.",
+        "incorrectPassword": "Incorrect password.",
+        "hasDirectory": "Do you already have a configured working directory, do you want to reconfigure it?",
+        "directory": "What is your working directory?",
+        "notExistsDirectory": "The directory you provided does not exist.",
+        "success": "Configurations successfully imported to zeck."
+      }
     },
     "default": {
       "pt": {},
