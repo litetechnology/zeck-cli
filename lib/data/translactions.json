@@ -113,6 +113,13 @@
         "userNotFound": "This profile does not exist."
       }
     },
+    "reset": {
+      "pt": {
+        "confirm": "Isso apagará todas as configurações do zeck, de acordo ?",
+        "success": "Todas as configurações foram resetadas com sucesso."
+      },
+      "en": {}
+    },
     "default": {
       "pt": {},
       "en": {}
