@@ -1,5 +1,5 @@
 {
-  "default": "en",
+  "default": "pt",
   "commands": {
     "init": {
       "pt": {
@@ -117,6 +117,15 @@
       "pt": {
         "confirm": "Isso apagará todas as configurações do zeck, de acordo ?",
         "success": "Todas as configurações foram resetadas com sucesso."
+      },
+      "en": {}
+    },
+    "export": {
+      "pt": {
+        "hasConfigAnswer": "Esse comando vai exportar todas as confirações do zeck, incluindo senhas e acessos, de acordo?",
+        "selectPassword": "Informe uma senha para criptografia desses dados, ela será necessaria para importa-los novamente",
+        "loading": "Gerando token...",
+        "success": "Token gerado com sucesso, para importa-lo em qualquer lugar com o zeck, ultilize, 'zeck import' e informe o token e senha em seguida."
       },
       "en": {}
     },
