@@ -24,6 +24,8 @@
     * [version](#version)
     * [export](#export)
     * [import](#import)
+    * [ping](#ping)
+    * [add](#add)
 
 
 ## Recursos Principais
@@ -169,3 +171,23 @@ Importar configurações do zeck usando um token
 ```js
 zeck import
 ```
+
+## Ping 
+Envie uma solicitação de ping para verificar o status de um servidor, a cada 30 segundos, quantas vezes desejar.
+```js
+//enviando solicitação com suas configurações de perfil
+zeck ping
+
+//enviando uma solicitação com suas configurações de perfil e alternando o número de solicitações
+zeck ping [repeatSize]
+
+//enviando uma solicitação com sua URL e o número de solicitações
+zeck ping [repeatSize] [url]
+```
+
+## Add 
+Adicionando e configurando projetos no zeck
+```js
+zeck add
+```
+

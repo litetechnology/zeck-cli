@@ -23,6 +23,8 @@
     * [version](#version)
     * [export](#export)
     * [import](#import)
+    * [ping](#ping)
+    * [add](#add)
 
 ## Main features
 - Complete task list
@@ -166,5 +168,24 @@ zeck export
 Import zeck settings using a token
 ```js
 zeck import
+```
+
+## Ping 
+Send a ping request to check the status of a server, every 30 seconds as many times as you like
+```js
+//sending request with your profile settings
+zeck ping
+
+//sending a request with your profile settings and alternating the number of requests
+zeck ping [repeatSize]
+
+//sending a request with your url and the number of requests
+zeck ping [repeatSize] [url]
+```
+
+## Add 
+Adding and configuring projects to zeck
+```js
+zeck add
 ```
 
