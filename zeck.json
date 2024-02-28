@@ -1,7 +1,7 @@
 {
   "name": "zeck",
   "install": "npm i",
-  "run": "npm run dev",
+  "run": "node ./bin/zeck.js",
   "build": "",
   "buildDir": "",
   "type": "service",

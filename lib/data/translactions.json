@@ -217,7 +217,16 @@
         "notProjects": "Você não possui nenhum projeto adicionado, utilize 'zeck add'" ,
         "notExistsProject": "O projeto que você forneceu não existe.",
         "selectProject":"Selecione um projeto para iniciar",
-        "notProjectRunCommand": "O projeto não possui um comando para iniciar, ultilize 'zeck project config'"
+        "notProjectRunCommand": "O projeto não possui um comando para iniciar, ultilize 'zeck project config'",
+        "loadingInfo": "Carregando informações do projeto.",
+        "openVc": "Abrindo editor de codigos",
+        "errorVc": "Erro ao abrir o editor",
+        "installDependencies": "Instalando dependencias",
+        "errorInstallDependencies": "Erro ao instalar dependencias",
+        "run": "Iniciando projeto",
+        "errorRun": "Erro ao iniciar projeto",
+        "success": "Projeto iniciado com sucesso"
+
       },
       "en": {}
     },
