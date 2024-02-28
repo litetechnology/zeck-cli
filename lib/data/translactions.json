@@ -1,5 +1,5 @@
 {
-  "default": "en",
+  "default": "pt",
   "commands": {
     "init": {
       "pt": {
@@ -210,6 +210,16 @@
         "selectRemotePath": "What is the project path on the VPS?",
         "selectRemoteRun": "What is the command to start the project remotely?"
       }
+    },
+    "start": {
+      "pt": {
+        "notDirectory": "Você não possui um diretório de trabalho definido, utilize 'zeck config directory'",  
+        "notProjects": "Você não possui nenhum projeto adicionado, utilize 'zeck add'" ,
+        "notExistsProject": "O projeto que você forneceu não existe.",
+        "selectProject":"Selecione um projeto para iniciar",
+        "notProjectRunCommand": "O projeto não possui um comando para iniciar, ultilize 'zeck project config'"
+      },
+      "en": {}
     },
     "default": {
       "pt": {},
