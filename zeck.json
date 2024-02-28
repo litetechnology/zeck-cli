@@ -1,0 +1,15 @@
+{
+  "name": "zeck",
+  "install": "npm i",
+  "run": "npm run dev",
+  "build": "",
+  "buildDir": "",
+  "type": "service",
+  "github": "",
+  "remotePath": "",
+  "remoteRun": "",
+  "directory": "D:\\projetos\\zeck-cli",
+  "installDependencies": false,
+  "lastUpdate": "2024-02-28T03:36:24.903Z",
+  "create": "2024-02-28T03:36:24.903Z"
+}

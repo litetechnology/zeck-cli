@@ -1,5 +1,5 @@
 {
-  "default": "pt",
+  "default": "en",
   "commands": {
     "init": {
       "pt": {
@@ -163,15 +163,56 @@
     },
     "ping": {
       "pt": {
-        "loading":"Realizando requisição ***",
-        "requestError": "Ouve um erro ao realizar a requisição."
+        "loading": "Realizando requisição ***",
+        "requestError": "Houve um erro ao realizar a requisição."
       },
-      "en": {}
+      "en": {
+        "loading": "Making request ***",
+        "requestError": "There was an error while making the request."
+      }
+    },
+    "add": {
+      "pt": {
+        "notDirectory": "Você não possui um diretório de trabalho definido, utilize 'zeck config directory'",
+        "outsideDirectory": "Deseja adicionar um repositório que está dentro do seu diretório de trabalho?",
+        "directory": "Qual é o diretório do seu projeto?",
+        "selectDirectory": "Selecione seu projeto abaixo",
+        "notExistsDirectory": "O diretório que você forneceu não existe.",
+        "validateNotAllowed": "Uma resposta vazia não é permitida.",
+        "existsConfigAnswer": "Já existe um arquivo de configuração nesse projeto, deseja usá-lo?",
+        "addSuccess": "Projeto adicionado com sucesso.",
+        "selectType": "Selecione o tipo do seu projeto",
+        "selectName": "Qual é o nome do seu projeto?",
+        "selectInstall": "Qual o comando para instalação das dependências?",
+        "selectRun": "Qual o comando para iniciar o projeto?",
+        "selectBuild": "Qual o comando para executar o build?",
+        "selectBuildDir": "Qual a pasta de saída do build?",
+        "selectGit": "Qual é o link do repositório remoto no GitHub?",
+        "selectRemotePath": "Qual é o caminho do projeto na VPS?",
+        "selectRemoteRun": "Qual é o comando para iniciar o projeto remotamente?"
+      },
+      "en": {
+        "notDirectory": "You don't have a defined working directory, use 'zeck config directory'",
+        "outsideDirectory": "Do you want to add a repository that is inside your working directory?",
+        "directory": "What is the directory of your project?",
+        "selectDirectory": "Select your project below",
+        "notExistsDirectory": "The directory you provided does not exist.",
+        "validateNotAllowed": "An empty answer is not allowed.",
+        "existsConfigAnswer": "There is already a configuration file in this project, do you want to use it?",
+        "addSuccess": "Project added successfully.",
+        "selectType": "Select the type of your project",
+        "selectName": "What is the name of your project?",
+        "selectInstall": "What is the command for installing dependencies?",
+        "selectRun": "What is the command to start the project?",
+        "selectBuild": "What is the command to execute the build?",
+        "selectBuildDir": "What is the output folder of the build?",
+        "selectGit": "What is the link to the remote repository on GitHub?",
+        "selectRemotePath": "What is the project path on the VPS?",
+        "selectRemoteRun": "What is the command to start the project remotely?"
+      }
     },
     "default": {
-      "pt": {
-
-      },
+      "pt": {},
       "en": {}
     }
   },
