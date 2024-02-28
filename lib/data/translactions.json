@@ -230,6 +230,15 @@
       },
       "en": {}
     },
+    "remove": {
+      "pt": {
+        "notProjects": "Você não possui nenhum projeto adicionado" ,
+        "notExistsProject": "O projeto que você forneceu não existe.",
+        "selectProject":"Selecione um projeto para remover",
+        "success": "Projeto removido com sucesso"
+      },
+      "en": {}
+    },
     "default": {
       "pt": {},
       "en": {}
