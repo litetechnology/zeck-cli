@@ -6,10 +6,11 @@
   "buildDir": "",
   "type": "service",
   "github": "",
-  "remotePath": "",
+  "remotePath": "/home/backend/zeck-cli",
   "remoteRun": "",
   "directory": "D:\\projetos\\zeck-cli",
   "installDependencies": false,
   "lastUpdate": "2024-02-28T03:36:24.903Z",
-  "create": "2024-02-28T03:36:24.903Z"
+  "create": "2024-02-28T03:36:24.903Z",
+  "ignore": [".git", "node_modules"]
 }
