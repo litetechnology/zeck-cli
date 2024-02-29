@@ -10,7 +10,7 @@
   "main": "./bin/zeck.js",
   "scripts": {
     "zeck": "node ./bin/zeck.js",
-    "publish":"npm publish --access public"
+    "publish": "npm publish --access public"
   },
   "type": "module",
   "dependencies": {
@@ -19,9 +19,10 @@
     "commander": "^12.0.0",
     "figlet": "^1.7.0",
     "gulog": "^2.0.0",
-    "inquirer": "^9.2.15"
+    "inquirer": "^9.2.15",
+    "ssh2-sftp-client": "^10.0.3"
   },
-  "keywords":[
+  "keywords": [
     "zeck",
     "cli",
     "production-cli",

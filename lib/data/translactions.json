@@ -213,10 +213,10 @@
     },
     "start": {
       "pt": {
-        "notDirectory": "Você não possui um diretório de trabalho definido, utilize 'zeck config directory'",  
-        "notProjects": "Você não possui nenhum projeto adicionado, utilize 'zeck add'" ,
+        "notDirectory": "Você não possui um diretório de trabalho definido, utilize 'zeck config directory'",
+        "notProjects": "Você não possui nenhum projeto adicionado, utilize 'zeck add'",
         "notExistsProject": "O projeto que você forneceu não existe.",
-        "selectProject":"Selecione um projeto para iniciar",
+        "selectProject": "Selecione um projeto para iniciar",
         "notProjectRunCommand": "O projeto não possui um comando para iniciar, ultilize 'zeck project config'",
         "loadingInfo": "Carregando informações do projeto.",
         "openVc": "Abrindo editor de codigos",
@@ -225,17 +225,30 @@
         "errorInstallDependencies": "Erro ao instalar dependencias",
         "run": "Iniciando projeto",
         "errorRun": "Erro ao iniciar projeto",
-        "success": "Projeto iniciado com sucesso"
-
+        "success": "Projeto iniciado com sucesso",
+        "notProjectDirectory": "Esse projeto não poussi um diretório definido."
       },
       "en": {}
     },
     "remove": {
       "pt": {
-        "notProjects": "Você não possui nenhum projeto adicionado" ,
+        "notProjects": "Você não possui nenhum projeto adicionado",
         "notExistsProject": "O projeto que você forneceu não existe.",
-        "selectProject":"Selecione um projeto para remover",
+        "selectProject": "Selecione um projeto para remover",
         "success": "Projeto removido com sucesso"
+      },
+      "en": {}
+    },
+    "update": {
+      "pt": {
+        "notDirectory": "Você não possui um diretório de trabalho definido, utilize 'zeck config directory'",
+        "notProjectDirectory": "Esse projeto não possui um diretório definido.",
+        "notProjectRemoteDirectory": "Esse projeto não poussi um diretório remoto definido.",
+        "notProjects": "Você não possui nenhum projeto adicionado, utilize 'zeck add'",
+        "notExistsProject": "O projeto que você forneceu não existe.",
+        "selectProject": "Selecione um projeto para dar um update",
+        "loading": "Iniciando atualização do projeto.",
+        "success": "Projeto atualizado com sucesso."
       },
       "en": {}
     },
