@@ -258,6 +258,24 @@
       },
       "en": {}
     },
+    "run": {
+      "pt": {
+        "notDirectory": "Você não possui um diretório de trabalho definido, utilize 'zeck config directory'",
+        "notProjectDirectory": "Esse projeto não possui um diretório definido.",
+        "notBuildDir": "Esse projeto não possui um diretório de build definido.",
+        "errorBuild": "Ouve um erro ao encontrar o diretório de build.",
+        "build": "Iniciando build do projeto.",
+        "notProjectRemoteDirectory": "Esse projeto não poussi um diretório remoto definido.",
+        "notProjects": "Você não possui nenhum projeto adicionado, utilize 'zeck add'",
+        "notExistsProject": "O projeto que você forneceu não existe.",
+        "selectProject": "Selecione um projeto para dar um update",
+        "loadingVps": "Iniciando conexão com ***",
+        "success": "Projeto iniciado com sucesso.",
+        "remoteRun": "Iniciando projeto remotamente.",
+        "errorRemote": "Erro ao iniciar projeto remotamente."
+      },
+      "en": {}
+    },
     "default": {
       "pt": {},
       "en": {}
