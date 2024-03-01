@@ -1,5 +1,5 @@
 {
-  "default": "en",
+  "default": "pt",
   "commands": {
     "init": {
       "pt": {
@@ -212,6 +212,22 @@
       }
     },
     "start": {
+      "pt": {
+        "notDirectory": "Você não possui um diretório de trabalho definido, utilize 'zeck config directory'",
+        "notProjects": "Você não possui nenhum projeto adicionado, utilize 'zeck add'",
+        "notExistsProject": "O projeto que você forneceu não existe.",
+        "selectProject": "Selecione um projeto para iniciar",
+        "notProjectRunCommand": "O projeto não possui um comando para iniciar, utilize 'zeck project config'",
+        "loadingInfo": "Carregando informações do projeto.",
+        "openVc": "Abrindo editor de códigos",
+        "errorVc": "Erro ao abrir o editor",
+        "installDependencies": "Instalando dependências",
+        "errorInstallDependencies": "Erro ao instalar dependências",
+        "run": "Iniciando projeto",
+        "errorRun": "Erro ao iniciar projeto",
+        "success": "Projeto iniciado com sucesso",
+        "notProjectDirectory": "Esse projeto não possui um diretório definido."
+      },
       "en": {
         "notDirectory": "You do not have a defined working directory, use 'zeck config directory'",
         "notProjects": "You do not have any added projects, use 'zeck add'",
@@ -230,6 +246,12 @@
       }
     },
     "remove": {
+      "pt": {
+        "notProjects": "Você não possui nenhum projeto adicionado",
+        "notExistsProject": "O projeto que você forneceu não existe.",
+        "selectProject": "Selecione um projeto para remover",
+        "success": "Projeto removido com sucesso"
+      },
       "en": {
         "notProjects": "You do not have any added projects",
         "notExistsProject": "The project you provided does not exist.",
@@ -238,6 +260,22 @@
       }
     },
     "update": {
+      "pt": {
+        "notDirectory": "Você não possui um diretório de trabalho definido, utilize 'zeck config directory'",
+        "notProjectDirectory": "Esse projeto não possui um diretório definido.",
+        "notBuildDir": "Esse projeto não possui um diretório de build definido.",
+        "errorBuild": "Houve um erro ao encontrar o diretório de build.",
+        "build": "Iniciando build do projeto.",
+        "notProjectRemoteDirectory": "Esse projeto não possui um diretório remoto definido.",
+        "notProjects": "Você não possui nenhum projeto adicionado, utilize 'zeck add'",
+        "notExistsProject": "O projeto que você forneceu não existe.",
+        "selectProject": "Selecione um projeto para dar um update",
+        "loading": "Iniciando atualização do projeto.",
+        "loadingVps": "Fazendo upload dos arquivos para ***",
+        "success": "Projeto atualizado com sucesso.",
+        "remoteRun": "Iniciando projeto remotamente.",
+        "errorRemote": "Erro ao iniciar projeto remotamente."
+      },
       "en": {
         "notDirectory": "You do not have a defined working directory, use 'zeck config directory'",
         "notProjectDirectory": "This project does not have a defined directory.",
@@ -256,6 +294,21 @@
       }
     },
     "run": {
+      "pt": {
+        "notDirectory": "Você não possui um diretório de trabalho definido, utilize 'zeck config directory'",
+        "notProjectDirectory": "Esse projeto não possui um diretório definido.",
+        "notBuildDir": "Esse projeto não possui um diretório de build definido.",
+        "errorBuild": "Houve um erro ao encontrar o diretório de build.",
+        "build": "Iniciando build do projeto.",
+        "notProjectRemoteDirectory": "Esse projeto não possui um diretório remoto definido.",
+        "notProjects": "Você não possui nenhum projeto adicionado, utilize 'zeck add'",
+        "notExistsProject": "O projeto que você forneceu não existe.",
+        "selectProject": "Selecione um projeto para dar um update",
+        "loadingVps": "Iniciando conexão com ***",
+        "success": "Projeto iniciado com sucesso.",
+        "remoteRun": "Iniciando projeto remotamente.",
+        "errorRemote": "Erro ao iniciar projeto remotamente."
+      },
       "en": {
         "notDirectory": "You do not have a defined working directory, use 'zeck config directory'",
         "notProjectDirectory": "This project does not have a defined directory.",
@@ -270,6 +323,26 @@
         "success": "Project started successfully.",
         "remoteRun": "Starting project remotely.",
         "errorRemote": "Error starting project remotely."
+      }
+    },
+    "backup": {
+      "pt": {
+        "notDirectory": "Você não possui um diretório de trabalho definido, utilize 'zeck config directory'",
+        "notProjects": "Você não possui nenhum projeto adicionado, utilize 'zeck add'",
+        "confirmScope": "Posso realizar backup de todos os projetos ou deseja escolher o projeto para realizar backup ?",
+        "selectProject": "Selecione um projeto para realizar um backup",
+        "errorDir": "Erro ao criar diretorio de backup",
+        "loadingVps": "Iniciando conexão com ***",
+        "success": "Backup realizado com sucesso."
+      },
+      "en": {
+        "notDirectory": "You do not have a defined working directory, use 'zeck config directory'",
+        "notProjects": "You do not have any projects added, use 'zeck add'",
+        "confirmScope": "Can I back up all projects, or do you want to choose a specific project for backup?",
+        "selectProject": "Select a project to perform a backup",
+        "errorDir": "Error creating backup directory",
+        "loadingVps": "Initiating connection with ***",
+        "success": "Backup completed successfully."
       }
     },
     "default": {
