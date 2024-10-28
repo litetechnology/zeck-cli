@@ -348,6 +348,10 @@
     "default": {
       "pt": {},
       "en": {}
+    },
+    "template": {
+      "pt": {},
+      "en": {}
     }
   },
   "errors": {
