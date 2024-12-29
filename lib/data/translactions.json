@@ -345,11 +345,16 @@
         "success": "Backup completed successfully."
       }
     },
-    "default": {
-      "pt": {},
-      "en": {}
-    },
     "template": {
+      "pt": {
+        "selectStack": "Selecione qual a area de seu template",
+        "selectProject": "Selecione um projeto para construir"
+      },
+      "en": {
+        "": ""
+      }
+    },
+    "default": {
       "pt": {},
       "en": {}
     }
